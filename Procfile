@@ -1,0 +1,1 @@
+web gunicorn DjangoFirstTask.wsgi:application --log-file -

@@ -1,0 +1,31 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Django Task1 Home Page</h1>
+        <div id="image1">
+            <img src="{% static 'images/newlogo.png' %}" alt="">
+        </div>
+    </header>
+    <div class="main-content">
+
+        <form action="url">
+            <h2>Click Below to render on the URL Webpage</h2>
+            <button type="submit" style="border: 5px solid  black ;border-radius: 30px">Go to URL Page</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 DjangoTask. O(1)CogingClubTask1HomePage.</p>
+    </footer>
+</body>
+
+</html>
