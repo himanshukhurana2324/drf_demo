@@ -14,6 +14,6 @@ def task(request):
         {'name': 'Raman', 'roll_number': '112', 'grade': 'A'},
         {'name': 'Rama', 'roll_number': '14', 'grade': 'C'},
         {'name': 'Sonal', 'roll_number': '234', 'grade': 'A'},
-        {'name': 'Krishan', 'roll_number': '124', 'grade': 'B'},
+        {'name': 'Krishna', 'roll_number': '124', 'grade': 'B'},
     ]
     return render(request, 'task.html', {'students': students})
